@@ -1,0 +1,35 @@
+#
+# Copyright (C) 2023 Altair Engineering Inc. ("Holder")
+# Model is licensed by Holder under CC BY-NC 4.0
+# (https://creativecommons.org/licenses/by-nc/4.0/legalcode).
+#
+/ANIM/DT
+#   TSTART     TFREQ
+0.000000 0.000010
+/ANIM/MASS
+/DT
+0.67 0
+/H3D/DT
+#   TSTART     TFREQ
+0.000000 0.000010
+/PRINT/-1000/55
+/RFILE
+#   NCYCLE
+1000000
+/RUN/Impact/1
+              0.0005
+/STOP
+# Emax Mmax Nmax NTH NANIM NERR_POSIT
+0 0 0 1 1 0
+/TFILE/4
+#            dT_HIS
+0.000001
+/TITLE
+Impact                                                                                              
+/ANIM/VECT/VEL
+/ANIM/VECT/DISP
+/ANIM/VECT/ACC
+/ANIM/VECT/CONT
+/ANIM/NODA/DMAS
+/H3D/NODA/VEL
+/ANIM/BRICK/TENS/STRESS/ALL
