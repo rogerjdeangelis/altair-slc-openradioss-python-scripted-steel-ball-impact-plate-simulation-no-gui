@@ -25,11 +25,12 @@
 #            dT_HIS
 0.000001
 /TITLE
-Impact                                                                                              
+Impact
+/ANIM/BRICK/TENS/STRESS/ALL
+/ANIM/BRICK/VONM
 /ANIM/VECT/VEL
 /ANIM/VECT/DISP
 /ANIM/VECT/ACC
 /ANIM/VECT/CONT
 /ANIM/NODA/DMAS
 /H3D/NODA/VEL
-/ANIM/BRICK/TENS/STRESS/ALL
