@@ -26,8 +26,20 @@
 0.000001
 /TITLE
 Impact
+#-------------------------------------
+# STRESS OUTPUT
+#-------------------------------------
 /ANIM/BRICK/TENS/STRESS/ALL
 /ANIM/BRICK/VONM
+
+#-------------------------------------
+# STRAIN OUTPUT (ADDED)
+#-------------------------------------
+/ANIM/BRICK/TENS/STRAIN/ALL
+
+#-------------------------------------
+# VECTOR OUTPUTS
+#-------------------------------------
 /ANIM/VECT/VEL
 /ANIM/VECT/DISP
 /ANIM/VECT/ACC
