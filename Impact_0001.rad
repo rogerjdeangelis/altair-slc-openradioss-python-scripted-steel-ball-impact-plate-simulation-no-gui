@@ -26,16 +26,20 @@
 0.000001
 /TITLE
 Impact
+
 #-------------------------------------
-# STRESS OUTPUT
+# BRICK OUTPUT (Ball - PART 1, Mounts - PART 2)
 #-------------------------------------
 /ANIM/BRICK/TENS/STRESS/ALL
 /ANIM/BRICK/VONM
+/ANIM/BRICK/TENS/STRAIN/ALL
 
 #-------------------------------------
-# STRAIN OUTPUT (ADDED)
+# SHELL OUTPUT (Plate - PART 5) - ADD THESE!
 #-------------------------------------
-/ANIM/BRICK/TENS/STRAIN/ALL
+/ANIM/SHELL/TENS/STRESS/ALL
+/ANIM/SHELL/TENS/STRAIN/ALL
+/ANIM/SHELL/VONM
 
 #-------------------------------------
 # VECTOR OUTPUTS
